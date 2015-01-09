@@ -79,6 +79,24 @@ You can use the file like this:
 Change log
 ----------
 
+### 0.2.3
+
+* Forgot to prepend library path when reading presets.json
+* Fix `QUOTA_EXCEEDED_ERR`
+
+### 0.2.2
+
+* Fix script error on page.
+
+### 0.2.1
+
+* Works again for latest IcoMoon website. Fix #6
+
+### 0.2.0
+
+* Support item map output for SCSS (--scss-with-map option). Implement #5
+* Add callback argument to lib/cli.js. (Idea stolen from @nanymor)
+
 ### 0.1.2
 
 * IcoMoon no longer supports SSLv3, specify --ssl-protocol=any to let PhantomJS choose newer version. Fix #4
